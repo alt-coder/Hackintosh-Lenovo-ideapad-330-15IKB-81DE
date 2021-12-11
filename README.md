@@ -61,12 +61,13 @@ Everything Works
 1. The EFI provided Strictly works on Mac OS 12 (*requires little tweaking for previous version*)
 2. Set up the Platforminfo/Generic/ section, his is unique to every Hackintosh as it contains SerialNumber, MLB, ROM. Use [this guide](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/kaby-lake.html#platforminfo)
 3. For this setup the SMBIOS of the [MacBookPro15,2 with i5-8259U](https://everymac.com/systems/apple/macbook_pro/specs/macbook-pro-core-i5-2.3-13-mid-2018-true-tone-display-touch-bar-specs.html) is used, as it´s the closest we can match the i5-8250U of the Ideapad.
-4. Follow this guide to create the bootlable [guide](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/)
-5. For dual boot 
+4. Update major kext like Lilu, Whatevergreen, Airportitlwm bluetoolfixup Intel bluetoothFirmware Virtual SMC AppleALC[follow this](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#kexts)
+5. Follow this guide to create the bootlable [guide](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/)
+6. For dual boot 
 	1. create a NTFS partation and lable it with some name *example MACOS*
 	2. boot from USB select disk utility and format the drive in APFS format
 	3. Now install mac OS in that drive
-6. To fix Function keys use [karabiner elements](https://karabiner-elements.pqrs.org/)
+7. To fix Function keys use [karabiner elements](https://karabiner-elements.pqrs.org/)
 ---
 ## Inspiration
 This guide is inspired by 
